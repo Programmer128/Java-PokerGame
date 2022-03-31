@@ -1,7 +1,7 @@
 # Java-PokerGame
 
 This is a JavaFX single hand Poker game. The player starts with a pot of money and bets that after the draw he will have a winning hand. The game continues until the player loses all his money. 
-The card folder will either need to be copied directly under the C: drive, or the player will need to modify folder path in the CardDisplayBox.java file.
+There was a card folder was copied directly under the C: drive. The card file names were in the format of 1.png = Ace of Spades and 13.png = King of Spades. The 14.png card starts over with an Ace of a new suit. The card folder path could be modified in the CardDisplayBox.java file.
 
 There are a couple of flaws in the program due to class deadline time constraints that I did not go back and fix. The game could have a cleaner ending than converting the betting money amount to a string of "Game Over" which causes a data type mismatch if the player tries to play another hand without restarting the game. Also the bet amount display could be modified so that the "Game Over" message did not overlap the bet amount display boundaries.
 
